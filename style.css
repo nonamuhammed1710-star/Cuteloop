@@ -1,0 +1,406 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(251, 251, 251);
+    color: #000509;
+    margin: 0 auto;
+}
+
+img.hm{ width: 1500px ;      
+    height: auto;      
+    max-width: 100% ;
+    display: block ;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ffffff00;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    
+}
+
+h1{
+    text-align: center;
+    color: #9f028a;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-shadow: 
+     0 0 5px #faf7fa,
+        0 0 10px #faf7fa,
+        0 0 20px #faf7fa,
+        0 0 40px #8b0252;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #efcee8, transparent);
+    margin: 25px 0;
+}
+
+div.me{
+     display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+img.me1{
+    height: auto;
+    width: 500px;
+    display: block ;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+}
+
+img.me2{
+    height: auto;
+    width: 500px;
+    display: block ;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    
+}
+
+img.me3{
+    height: auto;
+    width: 500px;
+    display: block ;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+}
+
+h2{
+     position: relative;
+    left: 40px;
+    color: #9f028a;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-shadow: 
+     0 0 5px #faf7fa,
+        0 0 10px #faf7fa,
+        0 0 20px #faf7fa,
+        0 0 40px #8b0252;
+}
+
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.store-card {
+    text-align: center;
+}
+
+
+.one{
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+}
+
+.two{
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+}
+
+.three{
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+}
+
+.four{
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+}
+
+.store-card h3 {
+    font-size: 22px;
+    color: #9f028a;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.store-grid2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.store-card2 {
+    text-align: center;
+}
+
+.one1{
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+}
+
+.two2{
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+}
+
+.three3{
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+}
+
+.four4{
+    width: 300px;
+    height: auto;
+    margin: 20px auto ;
+     border-radius: 8px;
+    border: 2px solid #ff01d0;
+    margin-top: 15px;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+}
+
+.store-card2 h3 {
+    font-size: 22px;
+    color: #9f028a;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefefe;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #ff01d0;
+    position: relative;
+    top: 10px;
+    box-shadow: 
+    0 0 5px #faf7fa,
+        0 0 10px #faf7fa,
+        0 0 20px #faf7fa,
+        0 0 40px #8b0252;;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+.nav.a{
+    color: #9f028a;
+}
+
+
+.me img,
+.store-card img,
+.store-card2 img,
+img.hm {
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+.me img:hover,
+.store-card img:hover,
+.store-card2 img:hover,
+img.hm:hover {
+    transform: scale(1.08);
+}
+
+
+
+
+
+
+/* Responsive design */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Tablets and mobile phones */
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Navigation bar */
+    nav {
+        padding: 12px 8px;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 0;
+    }
+
+    nav a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Main home image */
+    img.hm {
+        width: calc(100% - 20px);
+        height: auto;
+        margin: 15px auto;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding: 0 10px;
+        overflow-wrap: break-word;
+    }
+
+    /* Your three photos */
+    div.me {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+
+    img.me1,
+    img.me2,
+    img.me3 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        min-width: 0;
+    }
+
+    /* Center section headings */
+    h2 {
+        left: 0;
+        text-align: center;
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+    /* Clothes and bags grids */
+    .store-grid,
+    .store-grid2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px 12px;
+        padding: 10px;
+    }
+
+    .store-card,
+    .store-card2 {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .store-card img,
+    .store-card2 img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        object-fit: cover;
+    }
+
+    .store-card h3,
+    .store-card2 h3 {
+        font-size: 14px;
+        line-height: 1.4;
+        overflow-wrap: anywhere;
+        margin-top: 10px;
+    }
+
+    hr {
+        margin: 20px 0;
+    }
+}
+
+/* Extra small phones */
+@media screen and (max-width: 400px) {
+
+    nav a {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .store-grid,
+    .store-grid2 {
+        gap: 15px 8px;
+        padding: 8px;
+    }
+
+    .store-card h3,
+    .store-card2 h3 {
+        font-size: 12px;
+    }
+}
